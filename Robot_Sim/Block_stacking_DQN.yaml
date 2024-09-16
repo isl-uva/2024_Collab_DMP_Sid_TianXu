@@ -1,0 +1,30 @@
+BATCH_SIZE: 128
+GAMMA: 0.99
+EPS_START : 0.9
+EPS_END : 0.05
+EPS_DECAY : 1000
+TAU : 0.005
+LR : 1e-4
+NUM_EPOCHS : 10
+
+pybullet:
+  block_size : 0.05  # in Meteres
+  block_mass : 0.5   # in kgs
+  offset : [0.4,0,0] # in Meters
+
+env:
+  min_p : [0,0,0]
+  max_p : [5,5,3]
+  # obs : [[3,1,0],[3,1,1],[4,1,0]]
+  obs : []
+  objs:
+    ob1 : [[4,5,0],False,'orange',[0,1,0]] 
+    ob2 : [[4,-5,0],False,'red',[2,-8,2]]
+    # ob3 : [[8,3,0],False,'green',[2,-2,1]]
+    # ob4 : [[0,5,0],False,'blue']
+    # ob5 : [[0,5,1],False,'pink']
+    # ob6 : [[0,5,2],False,'grey']
+
+
+
+
