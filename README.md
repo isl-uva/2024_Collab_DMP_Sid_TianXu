@@ -2,7 +2,9 @@
 
 ## Overview
 
-We introduce a  new method that utilizes collaborative DMP approach to generate stable, collision-free trajectories for
+We introduce a  new method that utilizes collaborative DMP approach to generate stable, collision-free trajectories for multiple arms. Called ONCol-DMP, the proposed method combines RL with DMP, leveraging human demonstrations to generate online trajectories in real-time. Our paper is currently under review. 
+
+[Follow this link for the project website.](https://sites.google.com/virginia.edu/oncoldmp/home)
 
 ## Prerequisites
 
