@@ -77,3 +77,6 @@ Before proceeding with the installation, ensure you have the following installed
 
 7. **Start Editing the DMP File**
    The main file is the `DualArm_DMP_PyB.py`. Make sure that this file is in the `DMP/` folder. If placing this any deeper then you will have to change the `import` to import the `Robot` class objects from `Robot_Sim` directly, but that can have issues.
+
+## License
+Code licensed under the Apache License v2.0
